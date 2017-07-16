@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		064EABB31F1B45B9001CA9BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 064EABB21F1B45B9001CA9BA /* main.m */; };
-		064EABB61F1B45B9001CA9BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 064EABB51F1B45B9001CA9BA /* AppDelegate.m */; };
 		064EABB91F1B45B9001CA9BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 064EABB81F1B45B9001CA9BA /* ViewController.m */; };
 		064EABBC1F1B45B9001CA9BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064EABBA1F1B45B9001CA9BA /* Main.storyboard */; };
 		064EABBE1F1B45B9001CA9BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 064EABBD1F1B45B9001CA9BA /* Assets.xcassets */; };
 		064EABC11F1B45B9001CA9BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064EABBF1F1B45B9001CA9BA /* LaunchScreen.storyboard */; };
 		064EABCC1F1B45B9001CA9BA /* PopBackDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 064EABCB1F1B45B9001CA9BA /* PopBackDemoTests.m */; };
 		064EABD71F1B45B9001CA9BA /* PopBackDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 064EABD61F1B45B9001CA9BA /* PopBackDemoUITests.m */; };
+		064EABE61F1B45D3001CA9BA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 064EABE51F1B45D3001CA9BA /* FirstViewController.m */; };
+		064EABE91F1B45DB001CA9BA /* LPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 064EABE81F1B45DB001CA9BA /* LPNavigationController.m */; };
+		064EABF01F1B45EC001CA9BA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 064EABEB1F1B45EC001CA9BA /* SecondViewController.m */; };
+		064EABF11F1B45EC001CA9BA /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 064EABED1F1B45EC001CA9BA /* ThirdViewController.m */; };
+		064EABF21F1B45EC001CA9BA /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 064EABEF1F1B45EC001CA9BA /* UIViewController+BackButtonHandler.m */; };
+		064EABF51F1B4609001CA9BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 064EABF41F1B4609001CA9BA /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +42,6 @@
 /* Begin PBXFileReference section */
 		064EABAE1F1B45B9001CA9BA /* PopBackDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopBackDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		064EABB21F1B45B9001CA9BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		064EABB41F1B45B9001CA9BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		064EABB51F1B45B9001CA9BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		064EABB71F1B45B9001CA9BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		064EABB81F1B45B9001CA9BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		064EABBB1F1B45B9001CA9BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,18 @@
 		064EABD21F1B45B9001CA9BA /* PopBackDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopBackDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		064EABD61F1B45B9001CA9BA /* PopBackDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopBackDemoUITests.m; sourceTree = "<group>"; };
 		064EABD81F1B45B9001CA9BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		064EABE41F1B45D3001CA9BA /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		064EABE51F1B45D3001CA9BA /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		064EABE71F1B45DB001CA9BA /* LPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPNavigationController.h; sourceTree = "<group>"; };
+		064EABE81F1B45DB001CA9BA /* LPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPNavigationController.m; sourceTree = "<group>"; };
+		064EABEA1F1B45EC001CA9BA /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		064EABEB1F1B45EC001CA9BA /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		064EABEC1F1B45EC001CA9BA /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		064EABED1F1B45EC001CA9BA /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		064EABEE1F1B45EC001CA9BA /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
+		064EABEF1F1B45EC001CA9BA /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
+		064EABF31F1B4609001CA9BA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		064EABF41F1B4609001CA9BA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +116,18 @@
 		064EABB01F1B45B9001CA9BA /* PopBackDemo */ = {
 			isa = PBXGroup;
 			children = (
-				064EABB41F1B45B9001CA9BA /* AppDelegate.h */,
-				064EABB51F1B45B9001CA9BA /* AppDelegate.m */,
+				064EABE71F1B45DB001CA9BA /* LPNavigationController.h */,
+				064EABE81F1B45DB001CA9BA /* LPNavigationController.m */,
+				064EABE41F1B45D3001CA9BA /* FirstViewController.h */,
+				064EABE51F1B45D3001CA9BA /* FirstViewController.m */,
+				064EABEA1F1B45EC001CA9BA /* SecondViewController.h */,
+				064EABEB1F1B45EC001CA9BA /* SecondViewController.m */,
+				064EABEC1F1B45EC001CA9BA /* ThirdViewController.h */,
+				064EABED1F1B45EC001CA9BA /* ThirdViewController.m */,
+				064EABEE1F1B45EC001CA9BA /* UIViewController+BackButtonHandler.h */,
+				064EABEF1F1B45EC001CA9BA /* UIViewController+BackButtonHandler.m */,
+				064EABF31F1B4609001CA9BA /* AppDelegate.h */,
+				064EABF41F1B4609001CA9BA /* AppDelegate.m */,
 				064EABB71F1B45B9001CA9BA /* ViewController.h */,
 				064EABB81F1B45B9001CA9BA /* ViewController.m */,
 				064EABBA1F1B45B9001CA9BA /* Main.storyboard */,
@@ -273,9 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				064EABF01F1B45EC001CA9BA /* SecondViewController.m in Sources */,
 				064EABB91F1B45B9001CA9BA /* ViewController.m in Sources */,
-				064EABB61F1B45B9001CA9BA /* AppDelegate.m in Sources */,
+				064EABF21F1B45EC001CA9BA /* UIViewController+BackButtonHandler.m in Sources */,
 				064EABB31F1B45B9001CA9BA /* main.m in Sources */,
+				064EABF51F1B4609001CA9BA /* AppDelegate.m in Sources */,
+				064EABE61F1B45D3001CA9BA /* FirstViewController.m in Sources */,
+				064EABE91F1B45DB001CA9BA /* LPNavigationController.m in Sources */,
+				064EABF11F1B45EC001CA9BA /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
